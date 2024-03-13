@@ -55,5 +55,3 @@ function createCard(post) {
 }
 
 userPrompt();
-
-
