@@ -1,29 +1,12 @@
+
 body {
   background-color: #2d2d4a;
   color: white;
   font-family: Poppins;
 }
 
-.scene {
-  width: 40rem;
-  height: 46rem;
-  margin: 2% auto;
-  perspective: 1000px;
-  position: absolute;
-  top: 20%;
-  left: 26%;
-  position: fixed;
-  z-index: -2000;
-  overflow: hidden;
-}
-.wrapper-7 {
-  width: 100%;
-  height: 100%;
-  --bs-card-spacer-y: 10px;
-  --bs-card-spacer-x: 0;
-  transform-style: preserve-3d;
-  position: fixed;
-}
+
+
 .wrapper {
   width: 100%;
   height: 100%;
@@ -31,6 +14,7 @@ body {
   --bs-card-spacer-x: 0;
   transform-style: preserve-3d;
 }
+
 
 h3,
 h2,
@@ -62,16 +46,7 @@ p {
   margin-bottom: 5rem;
   margin: 2rem;
 }
-.wrapper-7 {
-  height: 46rem;
-  width: 40rem;
-  transition: transform 300ms linear;
-  position: fixed;
-  perspective: 100rem;
 
-  margin-bottom: 5rem;
-  margin: 2rem;
-}
 .wrapper {
   height: 26rem;
   width: 20rem;
@@ -133,6 +108,9 @@ p {
   padding: 5px;
 }
 
+
+
+
 .post-yazi {
   padding: 1rem;
   border: none;
@@ -143,6 +121,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
 }
 
 a {
@@ -191,29 +170,37 @@ i {
   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
   transition-duration: 0.1s;
 }
-.btn-user {
+.btn-user{
   display: flex;
   width: max-content;
   margin: auto;
   margin-left: 40rem;
+
+
+
 }
-.navbar {
+.navbar{
   display: flex;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
 
-  background-color: #2d2d4a;
+background-color: #2d2d4a;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.7rem;
+
+  
 }
-.navbar-logo {
+.navbar-logo{
   margin-left: 9rem;
-}
-#logo {
+  
+
+} 
+#logo{
   margin-top: 0.5rem;
   align-items: center;
   margin-left: 2rem;
+
 }
